@@ -1,0 +1,47 @@
+{
+  "name": "",
+  "version": "1.0.0",
+  "description": "test for react map",
+  "main": "webpack.config.js",
+  "scripts": {
+    "start": "node ./src/backEnd/index.js",
+    "watch:client": "webpack --watch",
+    "heroku-postbuild": "webpack -p --config webpack.config.js --progress",
+    "watch:server": "NODE_ENV=development nodemon -x 'npm start'",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhmdshorafa/start_express_react.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhmdshorafa/start_express_react/issues"
+  },
+  "homepage": "https://github.com/mhmdshorafa/start_express_react.git#readme",
+  "dependencies": {
+    "axios": "^0.16.2",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^6.4.1",
+    "babel-preset-env": "^1.4.0",
+    "babel-preset-react": "^6.24.1",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "prop-types": "^15.5.8",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-redux": "^5.0.4",
+    "react-share": "^1.15.0",
+    "react-slick": "^0.14.11",
+    "redux": "^3.6.0",
+    "slick-carousel": "^1.6.0",
+    "webpack": "^2.4.1",
+    "xml2js": "^0.4.17",
+    "semantic-ui-react": "^0.70.0"
+  },
+  "devDependencies": {
+    "dotenv": "^4.0.0",
+    "nodemon": "^1.11.0"
+  }
+}

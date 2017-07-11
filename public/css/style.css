@@ -1,0 +1,71 @@
+.main {
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.slick-slide img {
+  width: 100%;
+  height: 100vh;
+}
+
+.slick-dots {
+  position: static!important;
+}
+
+.content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.icon {
+  margin: 13px;
+}
+
+.share {
+  margin-left: 19px;
+}
+
+.logo {
+  height: 47px;
+  width: 187px;
+}
+
+.popup {
+  text-align: center;
+  width: 100px;
+}
+
+.share-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 5%;
+  position: fixed;
+  bottom: 3px;
+  z-index: 9999999;
+  transform: translateX(-125%);
+  text-align: center;
+  left: 58.44444%;
+}
+
+
+.Demo__container {
+  display: flex;
+  justify-content: flex-start;
+}
+.ui.icon.button>.icon, .ui.icon.buttons .button>.icon {
+   display: block;
+   margin:-4px!important;
+
+}
